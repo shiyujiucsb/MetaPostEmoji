@@ -1,4 +1,4 @@
-prologues := 3;
+prologues := 1;
 outputtemplate := "%j.svg";
 outputformat := "svg";
 beginfig(0);
