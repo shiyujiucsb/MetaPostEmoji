@@ -17,9 +17,9 @@ eyes_height_offset = .2*radius;
 path eye, left_eye, right_eye;
 eye = fullcircle scaled (2*eye_radius);
 left_eye = eye shifted (-eyes_distance/2,eyes_height_offset);
-fill left_eye withcolor (0,0,0);
+fill left_eye withcolor black;
 right_eye = eye shifted (eyes_distance/2,eyes_height_offset);
-fill right_eye withcolor (0,0,0);
+fill right_eye withcolor black;
 draw left_eye;
 draw right_eye;
 
